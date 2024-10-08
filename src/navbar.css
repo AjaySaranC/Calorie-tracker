@@ -1,0 +1,47 @@
+.navbar {
+  height: 5rem;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  transition: top 0.3s, background-color 0.2s;
+}
+
+.navbar.scrolled {
+  background-color: rgba(255, 255, 255, 0); 
+  backdrop-filter: blur(5px); 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.192);
+}
+
+.logo {
+  margin-top: 0.5rem;
+  object-fit: cover;
+  max-width: 75px;
+}
+
+.navmenulist {
+  margin: 3rem;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.5s ease, font-size 0.5s ease;
+  position: relative;
+}
+
+.navmenu {
+  margin-left: 20rem;
+}
+
+.navmenulist:hover::after {
+  width: 100%;
+  left: 0; 
+}
+
+.title {
+  padding-left: 0;
+  font-size: 25px;
+  padding-left: 10px;
+}

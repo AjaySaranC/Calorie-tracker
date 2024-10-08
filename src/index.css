@@ -1,0 +1,76 @@
+/* App.css */
+
+.App {
+  font-family: 'Arial, sans-serif';
+  text-align: center;
+}
+
+.search-result {
+  margin-bottom: 80px; /* Adjust margin to accommodate the search bar */
+}
+
+
+.search {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff; /* Set the background color as needed */
+  padding: 20px; /* Adjust padding as needed */
+  box-shadow: 0px -5px 15px 0px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for separation */
+}
+
+.input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 50rem;
+}
+
+.submit {
+  padding: 10px;
+  background-color: #fbff03;
+  color: rgb(52, 52, 52);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error {
+  font-size: 20px;
+  color: #ff0000; /* Set the error message color as needed */
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 90px; /* Adjust the distance from the bottom as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff; /* Set the background color as needed */
+  border: 1px solid #ff0000; /* Set the border color as needed */
+  
+  /*border-radius: 5px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);  */
+}
+
+.chat-pair {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; /* Align items to the left side */
+  margin-left: 20rem;
+  max-width: 60rem;
+}
+
+.response {
+  margin: 5px; /* Add margin for separation */
+}
+
+.response strong {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+}
+
+.response strong::before {
+  content: "\A";
+  white-space: pre;
+}

@@ -1,0 +1,62 @@
+/* MapboxHospitalFinder.css */
+
+/* Style for the container */
+.map-container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for the button */
+  .btn-get-hospitals {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-get-hospitals:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for hospital list */
+  .hospital-list {
+    margin-top: 20px;
+  }
+  
+  .hospital-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .hospital-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .hospital-address {
+    color: #666;
+  }
+  
+  /* Style for the continue button */
+  .btn-continue {
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-continue:hover {
+    background-color: #218838;
+  }
+  
